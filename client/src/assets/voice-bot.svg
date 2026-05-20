@@ -1,0 +1,65 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer glow ring -->
+  <circle cx="40" cy="40" r="38" fill="none" stroke="url(#glowGradient)" stroke-width="1" opacity="0.6"/>
+  
+  <!-- Main body -->
+  <circle cx="40" cy="40" r="35" fill="url(#bodyGradient)" stroke="#00d2fc" stroke-width="2"/>
+  
+  <!-- Robot head -->
+  <ellipse cx="40" cy="38" rx="18" ry="16" fill="url(#headGradient)" stroke="#ffffff" stroke-width="1"/>
+  
+  <!-- Eyes -->
+  <circle cx="34" cy="35" r="3" fill="#00d2fc">
+    <animate attributeName="r" values="3;2;3" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="46" cy="35" r="3" fill="#00d2fc">
+    <animate attributeName="r" values="3;2;3" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Eye glow -->
+  <circle cx="34" cy="35" r="4" fill="none" stroke="#00d2fc" stroke-width="0.5" opacity="0.5"/>
+  <circle cx="46" cy="35" r="4" fill="none" stroke="#00d2fc" stroke-width="0.5" opacity="0.5"/>
+  
+  <!-- Mouth/Speaker -->
+  <rect x="32" y="42" width="16" height="6" rx="3" fill="#00d2fc" opacity="0.8"/>
+  <rect x="34" y="44" width="3" height="2" rx="1" fill="white"/>
+  <rect x="38.5" y="44" width="3" height="2" rx="1" fill="white"/>
+  <rect x="43" y="44" width="3" height="2" rx="1" fill="white"/>
+  
+  <!-- Sound waves -->
+  <path d="M20 30 Q15 40 20 50" stroke="#00d2fc" stroke-width="2" fill="none" opacity="0.6">
+    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="1.5s" repeatCount="indefinite"/>
+  </path>
+  <path d="M60 30 Q65 40 60 50" stroke="#00d2fc" stroke-width="2" fill="none" opacity="0.6">
+    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="1.5s" repeatCount="indefinite"/>
+  </path>
+  <path d="M15 25 Q8 40 15 55" stroke="#00d2fc" stroke-width="1.5" fill="none" opacity="0.4">
+    <animate attributeName="opacity" values="0.4;0.1;0.4" dur="2s" repeatCount="indefinite"/>
+  </path>
+  <path d="M65 25 Q72 40 65 55" stroke="#00d2fc" stroke-width="1.5" fill="none" opacity="0.4">
+    <animate attributeName="opacity" values="0.4;0.1;0.4" dur="2s" repeatCount="indefinite"/>
+  </path>
+  
+  <!-- Microphone indicator -->
+  <rect x="38" y="58" width="4" height="8" rx="2" fill="#00d2fc"/>
+  <rect x="36" y="64" width="8" height="2" rx="1" fill="#00d2fc"/>
+  
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="bodyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#764ba2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#667eea;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="headGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#f0f0f0;stop-opacity:0.9" />
+    </linearGradient>
+    
+    <radialGradient id="glowGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#00d2fc;stop-opacity:0" />
+      <stop offset="100%" style="stop-color:#00d2fc;stop-opacity:0.8" />
+    </radialGradient>
+  </defs>
+</svg>
