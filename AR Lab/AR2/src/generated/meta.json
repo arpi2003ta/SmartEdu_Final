@@ -1,0 +1,16 @@
+{
+  "sceneName": "Test",
+  "meta": null,
+  "absolutePath": "https://localhost:3000",
+  "deployOnly": false,
+  "needleEditor": null,
+  "developmentBuild": false,
+  "generator": "Unity 6000.0.23f1, Needle Engine Integration @4.5.9",
+  "gzip": false,
+  "allowHotReload": true,
+  "license": {
+    "team": "org_w5osis4n4zll"
+  },
+  "facebookInstantGames": null,
+  "useRapier": true
+}
