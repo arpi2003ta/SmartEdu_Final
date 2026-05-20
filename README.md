@@ -46,6 +46,8 @@ SmartEdu is a full‑stack learning platform that combines classic e‑learning 
   - Error boundary with user‑friendly fallback UI.
   - Browser compatibility and network/performance monitoring helpers.
 
+- **Multilingual Support**
+- **AR Labs**
 ---
 
 ## Tech Stack
